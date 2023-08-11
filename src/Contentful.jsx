@@ -19,6 +19,7 @@ const Contentful = () => {
         const description = item.fields.description;
         const ingredients = item.fields.ingredients;
         const img = item.fields.img.fields.file.url;
+
         const id = item.sys.id;
         const group = item.fields.group;
         return { name, description, ingredients, img, id, group };

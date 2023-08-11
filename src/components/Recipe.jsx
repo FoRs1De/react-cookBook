@@ -7,8 +7,7 @@ const Recipe = ({ recipe, loading }) => {
   let filteredItem = recipe.filter((item) => {
     return item.id == recipeId;
   });
-  console.log(filteredItem);
-  console.log(recipe);
+
   return (
     <div>
       {loading ? (
