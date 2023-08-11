@@ -23,7 +23,7 @@ const Recipe = ({ recipe, loading }) => {
           />
           <h3 className='Description'>{filteredItem[0].description}</h3>
           {filteredItem[0].ingredients.map((item, index) => (
-            <p key={index}>{item}</p>
+            <p className="ingredients-table"key={index}>{item}</p>
           ))}
         </>
       ) : (

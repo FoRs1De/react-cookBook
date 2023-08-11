@@ -6,8 +6,8 @@
 }
 
 .Description {
-    font-size: 20px;
-    padding: 30px 0 30px 0;
+
+    padding: 10px 500px 10px 0;
     font-style: italic;
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +28,23 @@ p {
 
 @media only screen and (min-width: 1040px) {
     .Description {
-        max-width: 800px;
+
+        margin: 10px 0 30px 400px;
+        padding: 10px 100px 10px 0;
+        font-size: 20px;
+
+
+    }
+}
+
+@media only screen and (max-width: 714px) {
+    .Description {
+        max-width: 300px;
+        max-height: 100px;
+        font-size: 15px;
+        padding: 10px 0 30px 0;
+        margin-bottom: 30px;
+
 
 
     }
@@ -38,10 +54,60 @@ img {
     filter: drop-shadow(0 0 0.75rem black);
 }
 
-@media only screen and (min-width: 700px) {
-    img {
+@media only screen and (max-width: 714px) {
+    .pic {
+        max-width: 350px;
+        max-height: 250px;
+
+
+
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .pic {
         min-width: 500px;
         min-height: 300px;
+        margin: 0 0 0 400px;
+
+
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .Title-Recipe {
+        min-width: 300px;
+        min-height: 100px;
+        margin: 200px 0 0 500px;
+
+
+    }
+}
+
+@media only screen and (max-width: 714px) {
+    .Title-Recipe {
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 714px) {
+    .ingredients-table {
+        min-width: 200px;
+        min-height: 40px;
+        margin: 5px 0 0 0;
+        font-size: 13px;
+        line-height: 20px;
+
+
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .ingredients-table {
+        min-width: 300px;
+        min-height: 40px;
+        margin: 5px 0 0 400px;
 
 
     }
